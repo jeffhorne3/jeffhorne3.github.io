@@ -42,7 +42,7 @@ $(function () {
     createPlatform(250, 620, 200, 25)// short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
     createPlatform(675, 500, 200, 25)// short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
     createPlatform(1100, 450, 200, 25)// short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
-    createPlatform(300, 300 , 200, 25)// short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+    createPlatform(300, 350 , 200, 25)// short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
 
     // TODO 2
     // Create collectables
@@ -59,8 +59,8 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("top", 800, 1000); // cannon on left wall, 600px down, shooting once per second
-    createCannon("left", 420, 500); // cannon on left wall, 600px down, shooting once per second
-    createCannon("right", 420, 500);// cannon on left wall, 600px down, shooting once per second
+    createCannon("left", 420, 1000); // cannon on left wall, 600px down, shooting once per second
+    createCannon("right", 420, 1000);// cannon on left wall, 600px down, shooting once per second
 
 
     
